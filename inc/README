@@ -1,0 +1,11 @@
+This directory contains the following:
+
+  * File::Fetch and all dependencies thereof.  File::Fetch is the
+    module du jour for downloading software, e.g. CPANPLUS is built
+    upon it;
+  * Alien::Dojo::Build, an ad-hoc subclass of Module::Build.
+
+None of the above are meant to be installed onto the user's system.
+They are here solely to support the build process, including automatically
+downloading Dojo from its home site (this is optional).
+

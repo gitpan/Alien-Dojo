@@ -1,0 +1,21 @@
+Build.PL
+Changes
+inc/Alien/Dojo/Builder.pm
+inc/File/Fetch.pm
+inc/File/Fetch/Item.pm
+inc/File/Spec/Unix.pm
+inc/IPC/Cmd.pm
+inc/Locale/Maketext/Simple.pm
+inc/Module/Load.pm
+inc/Module/Load/Conditional.pm
+inc/Params/Check.pm
+inc/README
+inc/Text/Patch.pm
+lib/Alien/Dojo.pm
+MANIFEST			This list of files
+META.yml
+README
+t/00contents.t
+t/10install.t
+t/pod-coverage.t
+t/pod.t

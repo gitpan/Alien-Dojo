@@ -1,0 +1,12 @@
+---
+name: Alien-Dojo
+version: 0.01
+author:
+  - Dominique Quatravaux <dom@idealx.com>
+abstract: downloading and installing the Dojo Javascript toolkit
+license: perl
+provides:
+  Alien::Dojo:
+    file: lib/Alien/Dojo.pm
+    version: 0.01
+generated_by: Module::Build version 0.26

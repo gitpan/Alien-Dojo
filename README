@@ -1,0 +1,36 @@
+DESCRIPTION
+
+This is Alien::Dojo, a wrapper module around the Dojo Javascript
+toolkit.  Dojo is a visually sexy and well thought-out library for
+AJAX programming (aka "Web 2.0"), which is a trendy way of causing
+smart browsers to do smart things through Javascript.  See
+http://dojotoolkit.org/ for details.
+
+Like all modules in the Alien namespace, this package does nothing per
+se; its only purpose is to automatically download, package and make
+available a piece of third-party software. See
+http://search.cpan.org/search?module=Alien for details.
+
+INSTALLATION
+
+To install this module, you must have Module::Build installed. Type
+
+    perl Build.PL
+    ./Build
+    ./Build test
+    ./Build install
+
+This should download the latest version of Dojo from its home site and
+bundle it as a Perl package.  If this doesn't work, or you require a
+specific version of Dojo instead of the latest one, manually create a
+"download" directory and put the dojo-0.x.y.zip file inside it.
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2006 IDEALX and Dominique Quatravaux <dom@idealx.com>
+
+Parts of the Alien:: skeleton package were put together by Mattia
+Barbon <mbarbon@cpan.org> and re-used here.
+
+This program is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
